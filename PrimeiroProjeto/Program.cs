@@ -1,4 +1,13 @@
 ﻿// Screen Sound
 
 string mensagemBoasVindas = "Boas vindas ao Screen Sound";
-Console.WriteLine(mensagemBoasVindas);
+
+ void ExibirMensagemDeBoasVindas()
+{
+    Console.WriteLine("*************************");
+    Console.WriteLine(mensagemBoasVindas);
+    Console.WriteLine("*************************");
+}
+
+
+ExibirMensagemDeBoasVindas();
